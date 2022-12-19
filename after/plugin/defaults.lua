@@ -18,9 +18,9 @@ set.smartindent = true                  --Makes indenting smart
 set.autoindent = true                   --Good auto indent
 set.tabstop = 2                         --Insert 2 spaces for a tab
 set.shiftwidth = 4                      --Change the number of space characters inserted for indentation
-set.foldenable = true
-set.foldmethod = "indent"
-set.foldlevel = 2
+-- set.foldenable = true
+-- set.foldmethod = "indent"
+-- set.foldlevel = 2
 
 set.backup = false
 set.wrap = false                        --Display long lines as just one line
@@ -30,7 +30,7 @@ set.writebackup = false                 --This is recommended by coc
 
 set.fileencoding = "utf-8"              --The encoding displayed 
 set.mouse = "a"                             --Enable your mouse 
-set.numberwidth = 4 
+set.numberwidth = 4
 set.scrolloff = 8
 set.conceallevel = 0                    --So that I can see `` in markdown files
 set.pumheight = 10                      --Makes popup menu smaller
@@ -44,3 +44,6 @@ set.updatetime = 300                    --Faster completion
 set.timeoutlen = 500                    --By default timeoutlen is 1000 ms
 set.clipboard = "unnamedplus"           --Copy paste between vim and everything else
 set.colorcolumn = "80"
+
+-- Set completeopt to have a better completion experience
+vim.o.completeopt = 'menuone,noselect'
