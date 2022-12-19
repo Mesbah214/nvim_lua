@@ -8,7 +8,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 --open explorer
-keymap("n", "<leader>e", vim.cmd.Ex)
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+-- keymap("n", "<leader>e", vim.cmd.Ex)
 -- keymap("n", "<leader>e", ":Lex 30<CR>", opts)
 
 --write buffer
