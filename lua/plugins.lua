@@ -45,8 +45,8 @@ function M.setup()
         use {
             "shaunsingh/nord.nvim",
             config = function()
-                -- vim.g.nord_bold = false
                 vim.g.nord_italic = false
+                vim.g.nord_bold = false
                 vim.cmd "colorscheme nord"
             end
         }
@@ -109,6 +109,8 @@ function M.setup()
             end,
             -- event = "BufRead"
         }
+
+        use {"windwp/nvim-ts-autotag"}
 
         -- Auto pairs
         use {

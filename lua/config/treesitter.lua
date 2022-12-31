@@ -10,6 +10,9 @@ M.setup = function()
     ensure_installed = { "python", "css", "html", "lua", "c", "javascript", "tsx", "sql" },
     auto_install = true,
     sync_install = false,
+    autotag = {
+        enable = true
+    },
     highlight = {
       enable = true,
       disable = { "html" }
