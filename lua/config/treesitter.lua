@@ -15,7 +15,7 @@ M.setup = function()
     },
     highlight = {
       enable = true,
-      disable = { "html" }
+      -- disable = { "html" }
     },
   }
 end
