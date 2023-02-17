@@ -29,14 +29,13 @@ return {
     }
   },
 
+  -- Colorscheme
+  'folke/tokyonight.nvim',
 
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
   'lewis6991/gitsigns.nvim',
-  'shaunsingh/nord.nvim',
-  'navarasu/onedark.nvim', -- Theme inspired by Atom
-  'nvim-lualine/lualine.nvim', -- Fancier statusline
   'lukas-reineke/indent-blankline.nvim', -- Add indentation guides even on blank lines
   'numToStr/Comment.nvim', -- "gc" to comment visual regions/lines
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
