@@ -22,6 +22,14 @@ return {
   -- Colorscheme
   'folke/tokyonight.nvim',
 
+  {
+  -- Todo Plugin
+    "folke/todo-comments.nvim",
+    config = function ()
+      require("todo-comments").setup {}
+    end
+  },
+
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
